@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "BBCNassim";
+  src: url("../public/fonts/BBCNassim.eot"); /* IE9*/
+  src: url("../public/fonts/BBCNassim.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../public/fonts/BBCNassim.woff2") format("woff2"),
+    /* chrome、firefox */ url("../public/fonts/BBCNassim.woff") format("woff"),
+    /* chrome、firefox */ url("../public/fonts/BBCNassim.ttf") format("truetype");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  direction: rtl !important;
+}
+
+body {
+  @apply font-body;
+}
+
+p {
+  @apply my-5 leading-8;
+}

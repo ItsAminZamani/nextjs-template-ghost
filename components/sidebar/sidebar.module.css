@@ -1,0 +1,33 @@
+.sidebar {
+    @apply md:block lg:block xl:block items-center justify-between flex-wrap container mx-auto;
+}
+
+.title {
+    @apply text-center mx-auto w-full py-2;
+    color: #212121;
+    background: -webkit-linear-gradient(#eee, #212121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+.desc {
+    @apply my-2 text-center;
+}
+
+.links-box {
+    @apply border-b border-t border-black flex-grow flex items-center;
+}
+
+.links-box ul {
+    @apply list-none flex;
+}
+
+.links-box ul li {
+    @apply px-1 py-1 mx-auto;
+}
+
+.link {
+    @apply block;
+    color: #424242;
+}

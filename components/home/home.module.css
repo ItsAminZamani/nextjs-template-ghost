@@ -1,0 +1,20 @@
+.main {
+    @apply grid md:grid-cols-12 gap-4 relative;
+  }
+  
+  .desktopSidebar {
+    @apply md:fixed md:block hidden
+  }
+  
+  .desktopContent {
+    @apply md:col-span-4 md:block hidden;
+  }
+  
+  .sidebar {
+    @apply md:hidden;
+  }
+  
+  .content {
+    @apply md:col-span-8;
+  }
+  
